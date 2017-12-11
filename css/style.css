@@ -8944,15 +8944,19 @@ body {
 
 aside {
   background: #314961;
-  height: auto;
-  min-height: 95vh !important;
   padding-right: 0px !important;
   padding-left: 0px !important;
   text-align: center; }
+  @media (min-width: 768px) {
+    aside {
+      height: auto;
+      min-height: 95vh !important; } }
   aside .sidenav {
     text-align: left;
-    min-height: 350px;
     padding-bottom: 20px; }
+    @media (min-width: 768px) {
+      aside .sidenav {
+        min-height: 350px; } }
     aside .sidenav .nav-item .nav-link {
       text-transform: uppercase;
       color: #75848C;

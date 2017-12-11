@@ -31,16 +31,22 @@ body {
 
 aside {
   background: $blue-500;
-  height: auto;
-  min-height: 95vh !important;
   padding-right: 0px !important;
   padding-left: 0px !important;
   text-align: center;
 
+  @include media-breakpoint-up(md) {
+    height: auto;
+    min-height: 95vh !important;
+  }
+
   .sidenav {
     text-align: left;
-    min-height: 350px;
     padding-bottom: 20px;
+
+    @include media-breakpoint-up(md) {
+      min-height: 350px;
+    }
 
     .nav-item {
       .nav-link {
