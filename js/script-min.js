@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#surveyTabs a").on("click",function(n){n.preventDefault(),$(this).tab("show")}),$("#designTabs a").on("click",function(n){n.preventDefault(),$(this).tab("show")})});

@@ -1,0 +1,163 @@
+@import "fontawesome/fontawesome";
+@import "fontawesome/fa-light";
+@import "fontawesome/fa-regular";
+@import "fontawesome/fa-solid";
+@import "fontawesome/fa-brands";
+@import "bootstrap/bootstrap";
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.logo {
+  background: $green;
+  color: $white;
+  font-weight: normal;
+  font-size: 38px;
+  text-align: center;
+  padding: 20px;
+}
+
+.userbar {
+  background: $white;
+  color: $gray-500;
+  padding: 20px;
+
+  a {
+    color: $gray-700;
+  }
+}
+
+aside {
+  background: $blue-500;
+  height: auto;
+  min-height: 95vh !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  text-align: center;
+
+  .sidenav {
+    text-align: left;
+    min-height: 350px;
+    padding-bottom: 20px;
+
+    .nav-item {
+      .nav-link {
+        text-transform: uppercase;
+        color: $gray-600;
+        font-size: 14px;
+        padding: 12px 20px;
+  
+        .far {
+          margin-right: 10px;
+        }
+  
+        &:hover,
+        &.active {
+          color: $white;
+          background: $blue-900;
+        }
+      } //.nav-link
+
+      ul {
+        .nav-link {
+          padding-left: 30px;
+        }
+      }
+    }
+    
+  }
+
+}
+
+article {
+  background: $gray-100;  
+  padding: 40px 7px;
+
+  .nav-tabs {
+    border: 0;
+
+    .nav-link {
+      background: rgba($gray-500, .4);
+      color: $white;
+      font-size: 14px;
+      padding: 12px 12px;
+      border: 0;
+      margin: 5px 5px 0 0;
+      text-align: center;
+      min-width: 15.99%;
+
+      &:hover,
+      &:focus {
+        color: $white;
+        background: rgba($gray-500, 1);
+      }
+
+      &.active {
+        color: $gray-700;
+        background: $white;
+      }
+    }
+  }
+
+  .tab-content {
+    background: $white;
+    color: $gray-500;
+
+    .tab-pane {
+      padding: 45px;
+    }
+  }
+}
+
+h2 {
+  em {
+    color: $gray-500;
+    font-style: normal;
+    text-emphasis: none;
+  }
+}
+
+.welcome {
+  padding-bottom: 40px;
+  font-size: 20px;
+
+  .user {
+    padding: 0 40px;
+  }
+
+  .stats {
+    .stat {
+      font-size: 44px;
+      font-weight: bold;
+      line-height: 1;
+      margin-bottom: 5px;
+    }
+
+    small {
+      display: block;
+      font-size: 20px;
+      line-height: 1;
+      white-space: nowrap;
+      font-weight: normal;
+    }
+    .col {
+      border-left: 7px solid $green;
+      padding: 0 50px 0 15px;
+
+      
+    }
+    .total-surveys {
+      border-color: $green;
+
+    }
+    .total-responses {
+      border-color: $cyan;
+    }
+    .live-surveys {
+      border-color: $red;
+
+    }
+  }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>Survey Builder</title>
+
+  <link rel='stylesheet' href='/css/style.css'>
+
+</head>
+
+<body>
+  <div class='container-fluid'>
+    <div class='wrapper row'>
+      <div class='logo col-12 col-md-2 align-self-center'>
+        <div class="col">Jitsutech</div>
+      </div>
+      <div class='userbar col-12 col-md-10 align-self-center'>
+        <h4 class="float-left">Let's create something great</h4>
+        <a href='#' class="logout float-right">Logout</a>
+      </div>
+      <aside class='sidebar col-md-2'>
+        <ul class="nav sidenav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="/"><i class="far fa-list-alt"></i> Surveys</a>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="/survey/design.html"><i class="far fa-edit"></i> Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="far fa-print"></i> Publish</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="far fa-bolt"></i> Data</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="far fa-chart-bar"></i> Reports</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-question-circle"></i> Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-user"></i> My Account</a>
+          </li>
+        </ul>
+        <a name="" id="" class="btn btn-wide btn-primary" href="#" role="button">New Survey</a>
+      </aside>
+      <article class='col'>
+        <div class='col-12 tabs'>
+          <nav class="nav nav-tabs nav-stacked" id="designTabs">
+            <a class="nav-link active" href="#design-cover">Cover Page</a>
+            <a class="nav-link" href="#design-styling">Styling</a>
+            <a class="nav-link" href="#design-editor">Editor</a>
+            <a class="nav-link" href="#design-files">Files</a>
+            <a class="nav-link" href="#design-permissions">Permissions</a>
+            <a class="nav-link" href="#design-versions">Versions</a>
+          </nav>
+        </div> <!-- tabs -->
+        <div class='col-12'>
+          <div class="tab-content">
+            <div class="tab-pane active" id="design-cover" role="tabpanel">
+              <h2><em>COVER</em> PAGE</h2>
+              <p class="lead">Each version of a survey may have different text in the following areas.</p>
+              <form action='' class="form">
+                <div class="form-group">
+                  <label class="col-form-label" for="">Full Name</label>
+                  <input type="text" class="form-control" name="" id="" aria-describedby="fullName" placeholder="">
+                  <small id="fullName" class="form-text text-muted">Help text</small>
+                </div>
+                <div class="form-group">
+                  <label class="col-form-label" for="">Introduction / Consent</label>
+                  <textarea class="form-control" name="" id="" rows="8"></textarea>
+                </div>
+                <div class="form-group">
+                  <label class="col-form-label" for="">Conclusion</label>
+                  <textarea class="form-control" name="" id="" rows="8"></textarea>
+                </div>
+                <div class="form-group">
+                  <label class="col-form-label" for="">Notes</label>
+                  <textarea class="form-control" name="" id="" rows="4"></textarea>
+                </div>
+                <div class="form-group text-right">
+                  <button class="btn btn-wide btn-success" type="submit">Save</button>
+                </div>
+              </form>
+            </div> <!-- tab-pane -->
+            <div class="tab-pane" id="design-styling" role="tabpanel">
+              <h2><em>SURVEY</em> STYLE</h2>
+              <p class="lead">All survey versions share the following style elements.</p>
+              <form action='' class="form">
+                <div class="form-group">
+                  <label class="col-form-label" for="">Header Image</label>
+                  <input type="text" class="form-control" name="" id="" aria-describedby="fullName" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label class="col-form-label" for="">Background</label>
+                  <input type="text" class="form-control" name="" id="" aria-describedby="fullName" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label class="col-form-label" for="">Font Color</label>
+                  <input type="text" class="form-control" name="" id="" aria-describedby="fullName" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label class="col-form-label" for="">Global Footer</label>
+                  <textarea class="form-control" name="" id="" rows="8"></textarea>
+                </div>
+
+                <div class="form-group text-right">
+                  <button class="btn btn-wide btn-success" type="submit">Save</button>
+                </div>
+              </form>
+            </div> <!-- tab-pane -->
+            <div class="tab-pane" id="design-editor" role="tabpanel">design-editor</div> <!-- tab-pane -->
+            <div class="tab-pane" id="design-files" role="tabpanel">design-files</div> <!-- tab-pane -->
+            <div class="tab-pane" id="design-permissions" role="tabpanel">design-permissions</div> <!-- tab-pane -->
+            <div class="tab-pane" id="design-versions" role="tabpanel">design-versions</div> <!-- tab-pane -->
+          </div>  <!-- tab-content -->
+        </div> <!-- col-12 -->
+      </article>
+    </div> <!-- /wrapper -->
+  </div> <!-- /container -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <script src="/js/script.js"></script>
+</body>
+
+</html>

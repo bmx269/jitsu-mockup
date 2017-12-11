@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>Survey Builder</title>
+
+  <link rel='stylesheet' href='css/style.css'>
+  
+</head>
+<body>
+  <div class='container-fluid'>
+    <div class='wrapper row'>
+      <div class='logo col-12 col-md-2 align-self-center'>
+        <div class="col">Jitsutech</div>
+      </div>  
+      <div class='userbar col-12 col-md-10 align-self-center'>
+        <h4 class="float-left">Let's create something great</h4>
+        <a href='#' class="logout float-right">Logout</a>
+      </div>
+        <aside class='sidebar col-md-2'>
+            <ul class="nav sidenav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="far fa-list-alt"></i> Surveys</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="far fa-question-circle"></i> Help</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="far fa-user"></i> My Account</a>
+                </li>
+              </ul>
+          <a name="" id="" class="btn btn-wide btn-primary" href="#" role="button">New Survey</a>
+        
+        </aside>
+        <article class='col'>
+            <div class="d-flex flex-row welcome">
+              <div class='user'>
+                  <div class='message'><b>Hi Michael, Welcome Back!</b></div>
+                  <div class='date'>Sun, November 05, 2017 </div>
+                               
+              </div>
+              <div class='stats ml-auto'>
+                <div class='d-flex flex-row'>
+                  <div class='col total-surveys'>
+                    <div class='stat'>38</div>
+                    <small>Total Surveys</small>
+                  </div>
+                  <div class='col total-responses'>
+                      <div class='stat'>2,745</div>
+                      <small>Total Responses</small></div>
+                  <div class='col live-surveys'>
+                      <div class='stat'>4</div>
+                      <small>Live Surveys</small></div>
+                </div>
+              </div>
+            </div>
+          <div class='col-12 tabs'>
+             <nav class="nav nav-tabs nav-stacked" id="surveyTabs">
+               <a class="nav-link active" href="#survey-live">Live Surveys</a>
+               <a class="nav-link" href="#survey-draft">Draft Surveys</a>
+               <a class="nav-link" href="#survey-closed">Closed Surveys</a>
+             </nav>
+          </div>
+          <div class='col-12'>
+
+             <!-- Tab panes -->
+             <div class="tab-content">
+               <div class="tab-pane active" id="survey-live" role="tabpanel">
+                  <table class="table table-striped">
+                      <thead class="thead-light">
+                        <tr>
+                          <th scope="col">Title</th>
+                          <th scope="col">Updated</th>
+                          <th scope="col">Published</th>
+                          <th scope="col">Responses</th>
+                          <th scope="col">Actions</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><a href="/survey/design.html">Average Weight</a></td>
+                          <td>10/02/2017 1:32PM</td>
+                          <td>10/02/2017 12:42PM</td>
+                          <td>324</td>
+                          <td>
+                            <ul class="nav">
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle p-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Select Action</a>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/survey/design.html">Design</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Separated link</a>
+                                  </div>
+                                </li>
+                              </ul>
+                          </td>
+                        </tr>
+                        <tr>
+                            <td><a href="/survey/design.html">Box Office Hits</a></td>
+                            <td>10/02/2017 1:32PM</td>
+                            <td>10/02/2017 12:42PM</td>
+                            <td>213</td>
+                            <td>
+                              <ul class="nav">
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle p-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Select Action</a>
+                                    <div class="dropdown-menu">
+                                      <a class="dropdown-item" href="/survey/design.html">Design</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                  </li>
+                                </ul>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><a href="/survey/design.html">CEO Salaries</a></td>
+                            <td>10/02/2017 1:32PM</td>
+                            <td>10/02/2017 12:42PM</td>
+                            <td>187</td>
+                            <td>
+                              <ul class="nav">
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle p-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Select Action</a>
+                                    <div class="dropdown-menu">
+                                      <a class="dropdown-item" href="/survey/design.html">Design</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                  </li>
+                                </ul>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><a href="/survey/design.html">Home Assessments</a></td>
+                            <td>10/02/2017 1:32PM</td>
+                            <td>10/02/2017 12:42PM</td>
+                            <td>324</td>
+                            <td>
+                              <ul class="nav">
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle p-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Select Action</a>
+                                    <div class="dropdown-menu">
+                                      <a class="dropdown-item" href="/survey/design.html">Design</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                  </li>
+                                </ul>
+                            </td>
+                          </tr>
+                      </tbody>
+                    </table>
+                    <nav aria-label="Active surveys">
+                        <ul class="pagination justify-content-end">
+                          <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">Previous</a>
+                          </li>
+                          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                          </li>
+                        </ul>
+                      </nav>
+               </div>
+               <div class="tab-pane" id="survey-draft" role="tabpanel">
+                  <table class="table table-striped">
+                      <thead class="thead-light">
+                        <tr>
+                          <th scope="col">Title</th>
+                          <th scope="col">Updated</th>
+                          <th scope="col">Published</th>
+                          <th scope="col">Responses</th>
+                          <th scope="col">Actions</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><a href="/survey/design.html">Average Weight</a></td>
+                          <td>10/02/2017 1:32PM</td>
+                          <td>10/02/2017 12:42PM</td>
+                          <td>324</td>
+                          <td>
+                            <ul class="nav">
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle p-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Select Action</a>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/survey/design.html">Design</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Separated link</a>
+                                  </div>
+                                </li>
+                              </ul>
+                          </td>
+                        </tr>
+                        <tr>
+                            <td><a href="/survey/design.html">Box Office Hits</a></td>
+                            <td>10/02/2017 1:32PM</td>
+                            <td>10/02/2017 12:42PM</td>
+                            <td>213</td>
+                            <td>
+                              <ul class="nav">
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle p-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Select Action</a>
+                                    <div class="dropdown-menu">
+                                      <a class="dropdown-item" href="/survey/design.html">Design</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                  </li>
+                                </ul>
+                            </td>
+                          </tr>
+
+                      </tbody>
+                    </table>
+               </div>
+               <div class="tab-pane" id="survey-closed" role="tabpanel">
+                <table class="table table-striped">
+                    <thead class="thead-light">
+                      <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col">Updated</th>
+                        <th scope="col">Published</th>
+                        <th scope="col">Responses</th>
+                        <th scope="col">Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><a href="/survey/design.html">Favorite Pizza</a></td>
+                        <td>10/02/2017 1:32PM</td>
+                        <td>10/02/2017 12:42PM</td>
+                        <td>324</td>
+                        <td>
+                          <ul class="nav">
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle p-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Select Action</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="/survey/design.html">Design</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item" href="#">Separated link</a>
+                                </div>
+                              </li>
+                            </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                          <td><a href="/survey/design.html">Top Sifi Movies</a></td>
+                          <td>10/02/2017 1:32PM</td>
+                          <td>10/02/2017 12:42PM</td>
+                          <td>213</td>
+                          <td>
+                            <ul class="nav">
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle p-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Select Action</a>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/survey/design.html">Design</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Separated link</a>
+                                  </div>
+                                </li>
+                              </ul>
+                          </td>
+                        </tr>
+                    </tbody>
+                  </table>
+                </div>
+             </div>
+          </div>
+        </article>
+    </div> <!-- /wrapper -->
+  </div> <!-- /container -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="/js/script.js"></script>
+</body>
+</html>
